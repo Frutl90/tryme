@@ -45,7 +45,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                                 id='payload-slider',
                                                 min=min_payload,
                                                 max=max_payload,
-                                                step=1000,
+                                                step=100,
                                                 marks={
                                                     int(min_payload): str(int(min_payload)),
                                                     int(max_payload): str(int(max_payload)),
